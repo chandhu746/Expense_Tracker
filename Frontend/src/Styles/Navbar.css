@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #ece9e9;
+  color: rgb(235, 227, 227);
+  padding: 10px 20px;
+  border-radius: 0 0 0 10px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #ffffff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #f0f0f0; /* Text color on hover */
+  text-decoration: underline; /* Optional: underline text on hover */
+}

@@ -1,0 +1,54 @@
+.recent-expenses {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.recent-expenses h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+}
+
+.recent-expenses ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-expenses li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.recent-expenses li:last-child {
+  border-bottom: none;
+}
+
+.recent-expenses li span {
+  flex: 1;
+  text-align: left;
+}
+
+.recent-expenses li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.recent-expenses li button:hover {
+  background-color: #0056b3;
+}
+
+.recent-expenses li button:active {
+  background-color: #004080;
+}

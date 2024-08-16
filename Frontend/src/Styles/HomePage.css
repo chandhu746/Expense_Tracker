@@ -1,0 +1,39 @@
+.home-page {
+    position: relative;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 0 0 10px;
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust based on navbar height */
+    padding-top: 60px; /* Adjust if needed based on navbar height */
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Adjust max-width as needed */
+    text-align: center; /* Center text within the box */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
