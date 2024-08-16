@@ -1,0 +1,4 @@
+Frontend/node_modules/
+Backend/node_modules/
+
+SECRET_KEY = "chandrasekharu437384iuuf5484@4868"
